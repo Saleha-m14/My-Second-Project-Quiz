@@ -39,7 +39,7 @@ const questions = [
         question: "What is the meaning of Peace?",
         answers: [
               {text: "way", correct: false},
-              {text: "hear", correct: true},
+              {text: "hear", correct: false},
               {text: "build", correct: false},
               {text: "absence of war", correct: true},
             ]
@@ -79,6 +79,8 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const username = document.getElementById('username');
+console.log('Username: ', username.value);
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -94,12 +96,47 @@ function selectAnswer (e) {
   const isCorrect = selectedBtn.dataset.correct === "true";
   if(isCorrect){
     selectedBtn.classList.add("correct");
+    score++;
   }
   else{
     selectedBtn.classList.add("incorrect");
   }
+  Array.from(answerButtons.children).forEach(button => {
+    if(button.dataset.correct === "true"){
+      button.classList.add("correct");
+      
+    }
+    button.disabled = true;
+  });
+  nextButton.style.display = "block";
     
 };
+function handleNextButton() {
+  currentQuestionIndex++;
+  if(currentQuestionIndex < questions.length){
+    showQuestion();
+  }
+  else {
+    displayScore();
+  }
+}
+function displayScore() {
+  resetState();
+  questionElement.innerHTML = `
+  <h1>Hello!</h1><hr>
+  <p>You scored ${score} out of ${questions.length}.</p>`;
+  nextButton.innerHTML = "Replay";
+  nextButton.style.display = "block";
+}
+nextButton.addEventListener("click", ()=>{
+  if(currentQuestionIndex < questions.length){
+    handleNextButton();
+  }
+  else{
+    startQuiz();
+  }
+})
+
 function showQuestion() {
     resetState();
 	// show question

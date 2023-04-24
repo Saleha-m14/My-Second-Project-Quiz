@@ -18,10 +18,39 @@ header {
     width: 400px;
     
 }
+/*add styles for quiz container*/
 #container {
     background-color: #E5DFE0;
     width: 400px;
     padding: 30px;
     margin: 5px auto 0;
     border-radius: 15px;
+}
+/*question styles*/
+#question {
+    font-size: 20px;
+    color: #192A51;
+    padding-bottom: 20px;
+
+}
+.btn {
+    background-color: #F5E6E8;
+    color: #192A51;
+    font-weight: 500;
+    width: 100%;
+    border: solid #9683AE 2px;
+    border-radius: 10px;
+    display: block;
+    margin: 3px auto;
+    padding: 10px;
+    text-align: start;
+    cursor: pointer;
+}
+#next-btn {
+    background-color: #D5C6E0;
+    width: 90px;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 13px;
 }

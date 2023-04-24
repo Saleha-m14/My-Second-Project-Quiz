@@ -53,4 +53,6 @@ header {
     padding: 10px;
     margin-left: 5px;
     margin-top: 13px;
+    cursor: pointer;
+    display: none;
 }

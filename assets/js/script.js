@@ -75,13 +75,18 @@ const questions = [
   
   ];
 
-
+const nameInput = document.getElementById("name");
+let welcome = document.getElementById("welcome");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-const username = document.getElementById('username');
-console.log('Username: ', username.value);
 
+
+function displayName() {
+  welcome.innerHTML = "Hey " + nameInput.value + ", Lets test your English" 
+
+
+}
 let currentQuestionIndex = 0;
 let score = 0;
 

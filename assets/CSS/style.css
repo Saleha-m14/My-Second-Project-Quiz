@@ -12,10 +12,11 @@ body {
 header {
     background-color: none;
     text-align: center;
-    margin: 80px auto 0;
+    margin: 40px auto 0;
     color: #192A51;
     border-bottom: none;
     width: 400px;
+    font-size: medium;
     
 }
 
@@ -26,6 +27,7 @@ header {
     padding: 30px;
     margin: 5px auto 0;
     border-radius: 15px;
+    box-shadow: 5px 6px 5px 6px#192A51;
 }
 /*question styles*/
 #question {
@@ -33,6 +35,40 @@ header {
     color: #192A51;
     padding-bottom: 20px;
 
+}
+h3 {
+    background-color: none;
+    text-align: center;
+    margin: 10px auto 0;
+    color: #192A51;
+    border-bottom: none;
+    width: 400px;
+    
+}
+#hello {
+    background-color: none;
+    text-align: center;
+    margin: 30px auto 0;
+    color: #192A51;
+    border-bottom: none;
+    width: 400px;
+}
+#name {
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 3.5px;
+}
+.submit {
+    background-color: #D5C6E0;
+    width: 75px;
+    border: none;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+    
+    
 }
 .btn {
     font-family: 'Libre Baskerville', serif;

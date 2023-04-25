@@ -80,6 +80,7 @@ let welcome = document.getElementById("welcome");
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const marqueeParagraph = document.getElementById("marquee");
 
 
 function displayName() {
@@ -127,11 +128,14 @@ function handleNextButton() {
 }
 function displayScore() {
   resetState();
+  welcome.innerHTML = "You have completed the quiz!"
   questionElement.innerHTML = `
-  <h1>Hello!</h1><hr>
+  <h1>Good!</h1><hr>
   <p>You scored ${score} out of ${questions.length}.</p>`;
   nextButton.innerHTML = "Replay";
   nextButton.style.display = "block";
+  marqueeParagraph.innerHTML = "The End";
+
 }
 nextButton.addEventListener("click", ()=>{
   if(currentQuestionIndex < questions.length){
@@ -139,6 +143,7 @@ nextButton.addEventListener("click", ()=>{
   }
   else{
     startQuiz();
+    marqueeParagraph.innerHTML = "Try Again";
   }
 })
 

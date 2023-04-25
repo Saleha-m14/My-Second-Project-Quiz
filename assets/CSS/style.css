@@ -29,11 +29,34 @@ header {
     border-radius: 15px;
     box-shadow: 5px 6px 5px 6px#192A51;
 }
+#marquee {
+    background-color: none;
+    text-align: start;
+    margin: 10px auto 0;
+    color: #192A51;
+    border-bottom: none;
+    width: 400px;
+    font-size: larger;
+    padding-bottom: 4px;
+
+}
+#welcome {
+    background-color: none;
+    text-align: start;
+    margin: 10px auto 0;
+    color: #192A51;
+    border-bottom: none;
+    width: 400px;
+    font-size: larger;
+    padding-bottom: 4px;
+
+}
 /*question styles*/
 #question {
     font-size: 20px;
     color: #192A51;
     padding-bottom: 20px;
+    
 
 }
 h3 {

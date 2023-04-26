@@ -1,108 +1,221 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# English Vocabulary Quiz
 
-Welcome Saleha Mohammadi,
+![picture that shows it is responsive to different devices]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+English Vocabulary quiz is a simple quiz that is designed to test English vocabulary. It easy and simple to use. This quiz includes ten question and each question has four options that one of them is correct and the others are wrong. By selecting an answer you will realize if your answer is wrong or not and the correct answer. You can add a username and choose the correct option that is provided for each question.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Table of contents
 
-## Gitpod Reminders
+0. [Introduction](#introduction "Introduction")
+1. [Project Goals](#project-goals "ProjectGoals")
+   + [User Goals](#user-goals "User Goals")
+   + [Site Owner Goals](#site-owner-goal "Site Ower Goals")
+2. [User Experience](#user-experience "User Experience")
+   + [Target Audience](#target-audience "Target Audience")
+   + [User Requirements and Expectations](#user-requirements-and-expections "User Requirements and Expections")
+   + [User Stories](#usr-stories "User Stories")
+3. [Design](#design "Design") 
+   + [Design Choices](#design-choices "Design Choices")
+   + [Colour](#colour "Colour")
+   + [Fonts](#fonts "Fonts")
+4. [Technologies Used](#technologies-used "Technologies Used")
+   + [Languages](#languages "Languages")
+   + [Frameworks & Tools](#frameworks-and-tools "Frameworks & Tools")
+5. [Features](#features "Features")
+   + [Existing Features](#existing-features "Existing Features")
+      + [Start Screen](#start-screen "Start Screen")
+      + [Quiz Screen](#quiz-screen "Quiz Screen")
+      + [Score Screen](#score-screen "Score Screen")
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+6. [Testing](#testing "Testing")
+   + [Html Validation](#html-validation "Html Validation")
+   + [CSS Validation](#css-validation "CSS Validation")
+   + [Accessibility](#accessibility "Accessibility")
+   + [Performance](#performance "Performance")
+   + [Device Testing](#device-testing "Device Testing")
+   + [Browser Compatibility](#browser-compatility "Browser Compatility")
+   + [Testing User Stories](#testing-user-stories "Testing User Stories")
+7. [Bugs](#bugs "Bugs")
+8. [Deployment](#deployment "Deployment")
+9. [Credits](#credits "Credits")
+10. [Acknowledgements](#acknowledgements "Acknowledgements")
 
-`python3 -m http.server`
+# Introduction
 
-A blue button should appear to click: _Make Public_,
+Test English Vocabulary is a website that help users to test their English vocabulary and undrestand their level of English.
+It is designed for those who are eager to improve their knowledge and learn new words in English.
 
-Another blue button should appear to click: _Open Browser_.
+## Project Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The goal of this project is to create a quiz that tests users English vocabulary and help them learn new words to improve their English language skills.
 
-A blue button should appear to click: _Make Public_,
+### User Goals
 
-Another blue button should appear to click: _Open Browser_.
++ To test their English Vocabulary
++ Be able to learn new words and their meaning in English
++ realize the correct option for each question
++ display the score
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Site Owner Goals
 
-To log into the Heroku toolbelt CLI:
++ Develop a Javascript quiz platform
++ Make the design simple and user friendly
++ Make the page responsive and accessible
++ Provide fast and Engaging content to users
++ let the users add their usernames
++ Help users learn new words and meanings in English
++ let the user know the correct option
++ display the scores
++ try again option after showing scores
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Experience 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Target Audince
 
-------
++ Those who want to be challenged and entertained
++ Those who are interested to learn new words and improve their language skills
++ Those who want to test their English vocabulary
++ Those who are eager to learn new English words with meanings in English
 
-## Release History
+### User Requiements and Expectations 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
++ Input for user name
++ Webpage that has a simple and attractive design
++ Useful words
++ Responsive on different screen sizes
++ Display the score
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Design
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+This site is designed to engaging and simple quiz platform.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Colour
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The color palette was created using [Coolors](https://coolors.co
+)
+The colors that are used to design this site are eye-catching and the contexts are easily readable.
+![colors used](assets/images/colorsp2.png
+)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Fonts 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Fonts that are chosen for this website is Libre Baskerville from [Google fonts](https://fonts.google.com/) with a fall back of serif. That is readble.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Structure
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Languages 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
++ HTML
++ CSS
++ Javascript
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Frameworks & Tools
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+This quiz webpage includes three pages:
+  - Start Screen
+  - quiz Screen
+  - Score Screen
+When the user type username and submit it then can choose the right answer of the question. When the questions end the score screen will display.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Existing Features
 
-------
+#### Start Screen
 
-## FAQ about the uptime script
+The start screen has a header and a paragraph that says hello and asks to add username and a submit button to submit the username. When the user add username and submit it then the username input field and submit button will disappear and a message will be shown that calls the username to test their English.
 
-**Why have you added this script?**
+![Start Screen]()
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+#### Quiz Screen 
 
-**How will this affect me?**
+The quiz screen has a header that is on the top of the page and a div with an id of container that includes a welcome message and message that calls username to test his/her English vocabulary. If the user does not submit their username this message will not show and the user is still able to pass the quiz even without adding a name. Below that the question and four answers will display. By selecting an answer for the first question the next button will show that enables users to access the other questions of the quiz.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Quiz Screen]()
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### Score Screen
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The score screen has a title that says the end and a message that says user have completed the quiz and below that a good will display and after that the score will be visible. In the bottom of the screen their is a replay button that if the user wanted to pass the quiz again this button will take them to quiz screen.
 
-**So….?**
+![Score Screen]()
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+### Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+List of the main issues:
++ The question was displaying and the answers was not displaying.
+  + When getting the answer buttons div element the id had a spelling mistake. I did not notice it at first but after checking my code for the fourth time I noticed that the id has a spelling mistake I mean it was not the exact thing that was added to the answers div container.
++ The username input field and submit button was displaying even after submitting the username and when the username was on quiz screen and selecting an option the username input was on the top of the quiz container.
+  + For solving this problem I moved the p element input field and submit button inside a div with id of hello and then add a variable in javascript file to get that div and displayed the whole div to none. When the user clicks on submit button. That way it disapeared after submitting username.  
++ The user did not know if the answer he/she had selected is worng or not.
+  + The solution for this problem was adding correct and incorrect classes for answer buttons and if the selected answer dataset is true then the answer is correct and if false the answer is incorrect I added a color green for correct class and red for incorrect class name.
++ I had added the background colour green for the correct class and red for incorrect class but it was not displaying I did not know how to solve the problem so I asked the tutor section for guidance and he said that I need to write it more specifically then I called the button's class name and then correct class name and that way it was solved.
++ The user could not access the questions except the first question.
+  + I added a button and the button is displayed to none when the user select an answer for the first question the next button is displayed to block and the user can click on it and go to the next question.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+Apart from these issues that I mentioned there have been several minor issues. The majority of these issues have been due to miss spelled tags, attributes, closing tags, and other mistakes.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Validator Testing
 
----
+- HTML
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html)
 
-Happy coding!
+  ![W3C Validator]()
+
+- CSS
+  - No errors were returned when passing through the official [(Jigsaw validator)](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html&usermedium=all&vextwarning=&warning=1)
+
+![W3C CSS Validator]()
+
+- lighthouse testing
+![lighthouse testing]()
+
+### Unfixed Bugs
+
+- All bugs were fixed and added to testing.
+
+## Deployment & Usage
+
+### Remote Deployment
+The site was deployed to GitHub pages. To deploy the website, the following steps were taken:
+* In the GitHub repository, navigate to the Settings tab
+* On the left side menu, on the section Code and automation, click on Pages.
+* From the source section drop-down menu, select the Deploy from a branch.
+* From the branch section drop-down menu, select main, right on the side select /root.
+* Once the the branch menus have been selected, github will create the page. It might take a few minutes. Once it is done a link will show up on the top of the page.
+
+### How To Fork
+To fork the repository:
+* Log in (or sign up) to [Github](https://github.com/).
+* Go to the repository for this project: [Fem Code](https://github.com/panzek/fem-code).
+* Click the Fork button in the top right corner.
+
+### How To Clone
+
+To clone the repository:
+* Log in (or sign up) to [Github](https://github.com/).
+* Go to the repository for this project: [Fem Code](https://github.com/panzek/fem-code).
+* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+* Type 'git clone' into the terminal and then paste the link you copied in step 3.
+* Press enter.
+
+<br>
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+
+The live link can be found here - 
+
+[Back to top](#english-vocabulary-quiz)

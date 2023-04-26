@@ -74,7 +74,7 @@ const questions = [
   
   
   ];
-
+let firstDiv = document.getElementById("hello");
 const nameInput = document.getElementById("name");
 let welcome = document.getElementById("welcome");
 const questionElement = document.getElementById("question");
@@ -84,7 +84,8 @@ const marqueeParagraph = document.getElementById("marquee");
 
 
 function displayName() {
-  welcome.innerHTML = "Hey " + nameInput.value + ", Lets test your English" 
+  welcome.innerHTML = "Hey " + nameInput.value + ", Lets test your English" ;
+  firstDiv.style.display = "none";
 
 
 }

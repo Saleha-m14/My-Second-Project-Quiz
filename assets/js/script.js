@@ -86,6 +86,7 @@ const marqueeParagraph = document.getElementById("marquee");
 function displayName() {
   welcome.innerHTML = "Hey " + nameInput.value + ", Lets test your English" ;
   firstDiv.style.display = "none";
+  alert("You submitted your name")
 
 
 }
@@ -129,7 +130,7 @@ function handleNextButton() {
 }
 function displayScore() {
   resetState();
-  welcome.innerHTML = "You have completed the quiz!";
+  welcome.innerHTML = nameInput.value + ", You have completed the quiz!";
   questionElement.innerHTML = `
   <h1>Good!</h1><hr>
   <p>You scored ${score} out of ${questions.length}.</p>`;

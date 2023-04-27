@@ -128,19 +128,19 @@ When the user type username and submit it then can choose the right answer of th
 
 The start screen has a header and a paragraph that says hello and asks to add username and a submit button to submit the username. When the user add username and submit it then the username input field and submit button will disappear and a message will be shown that calls the username to test their English.
 
-![Start Screen]()
+![Start Screen](assets/images/start-menu.png)
 
 #### Quiz Screen 
 
 The quiz screen has a header that is on the top of the page and a div with an id of container that includes a welcome message and message that calls username to test his/her English vocabulary. If the user does not submit their username this message will not show and the user is still able to pass the quiz even without adding a name. Below that the question and four answers will display. By selecting an answer for the first question the next button will show that enables users to access the other questions of the quiz.
 
-![Quiz Screen]()
+![Quiz Screen](assets/images/quiz-menu.png)
 
 #### Score Screen
 
 The score screen has a title that says the end and a message that says user have completed the quiz and below that a good will display and after that the score will be visible. In the bottom of the screen their is a replay button that if the user wanted to pass the quiz again this button will take them to quiz screen.
 
-![Score Screen]()
+![Score Screen](assets/images/score-menu.png)
 
 
 ### Testing

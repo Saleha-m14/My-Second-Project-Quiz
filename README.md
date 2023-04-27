@@ -10,11 +10,11 @@ A live version of the webpage can be foound here - https://saleha-m14.github.io/
 0. [Introduction](#introduction "Introduction")
 1. [Project Goals](#project-goals "ProjectGoals")
    + [User Goals](#user-goals "User Goals")
-   + [Site Owner Goals](#site-owner-goal "Site Ower Goals")
+   + [Site Owner Goals](#site-owner-goals "Site Ower Goals")
 2. [User Experience](#user-experience "User Experience")
    + [Target Audience](#target-audience "Target Audience")
-   + [User Requirements and Expectations](#user-requirements-and-expections "User Requirements and Expections")
-   + [User Stories](#usr-stories "User Stories")
+   + [User Requirements and Expectations](#user-requirements-and-expectations "User Requirements and Expections")
+   + [User Stories](#user-stories "User Stories")
 3. [Design](#design "Design") 
    + [Design Choices](#design-choices "Design Choices")
    + [Colour](#colour "Colour")
@@ -78,13 +78,21 @@ The goal of this project is to create a quiz that tests users English vocabulary
 + Those who want to test their English vocabulary
 + Those who are eager to learn new English words with meanings in English
 
-### User Requiements and Expectations 
+### User Requirements and Expectations 
 
 + Input for user name
 + Webpage that has a simple and attractive design
 + Useful words
 + Responsive on different screen sizes
 + Display the score
+
+### User Stories
+
++ I want to user to feel challenged
++ I want the user to undrestand if the answer is write or wrong
++ I want the user to see the write answer for each question to learn them
++ I want the user to be able to add a user name
+
 
 ## Design
 
@@ -224,5 +232,17 @@ The procedure for deployment followed the "Creating your site" steps provided in
 6. The website will deploy and the pages refreshes to provide the live link to the project.
 
 The live link can be found here - https://saleha-m14.github.io/My-Second-Project-Quiz/
+
+# Credits 
+
+The over all idea of what to work on as the second project was inspired by [how to make a quiz app](https://youtu.be/2jwdyO_UunE)
+
+To clearly undrestand how to make a webpage responsive the video [how to make a webpage responsive](https://youtu.be/ZYV6dYtz4HA) helped me.
+
+The [easy tutorial](https://www.youtube.com/@EasyTutorialsVideo) helped me gain the necessary knowledge to complete the project complete this project.
+
+Martina Mentor from code institute helped and guided me complete this project.
+
+
 
 [Back to top](#english-vocabulary-quiz)

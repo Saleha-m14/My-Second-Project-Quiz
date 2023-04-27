@@ -21,22 +21,17 @@ A live version of the webpage can be foound here - https://saleha-m14.github.io/
    + [Fonts](#fonts "Fonts")
 4. [Technologies Used](#technologies-used "Technologies Used")
    + [Languages](#languages "Languages")
-   + [Frameworks & Tools](#frameworks-and-tools "Frameworks & Tools")
+  
 5. [Features](#features "Features")
    + [Existing Features](#existing-features "Existing Features")
       + [Start Screen](#start-screen "Start Screen")
       + [Quiz Screen](#quiz-screen "Quiz Screen")
       + [Score Screen](#score-screen "Score Screen")
+   + [Future Features](#future-features "Future Features")
 
 6. [Testing](#testing "Testing")
-   + [Html Validation](#html-validation "Html Validation")
-   + [CSS Validation](#css-validation "CSS Validation")
-   + [Accessibility](#accessibility "Accessibility")
-   + [Performance](#performance "Performance")
-   + [Device Testing](#device-testing "Device Testing")
-   + [Browser Compatibility](#browser-compatility "Browser Compatility")
-   + [Testing User Stories](#testing-user-stories "Testing User Stories")
-7. [Bugs](#bugs "Bugs")
+   + [Bugs](#bugs "Bugs")
+   + [Validator Testing](#validator-testing "Validator Testing") 
 8. [Deployment](#deployment "Deployment")
 9. [Credits](#credits "Credits")
 
@@ -120,8 +115,6 @@ Fonts that are chosen for this website is Libre Baskerville from [Google fonts](
 + CSS
 + Javascript
 
-### Frameworks & Tools
-
 ## Features
 
 This quiz webpage includes three pages:
@@ -150,8 +143,16 @@ The score screen has a title that says the end and a message that says user have
 
 ![Score Screen](assets/images/score-menu.png)
 
+### Future Features
+
++ The quiz will have three levels for beginners, intermediate and advanced levels
++ According for each level different questions will be added 
++ The users will be able to add feedback
+
 
 ### Testing
+
+#### Bugs
 
 List of the main issues:
 + The question was displaying and the answers was not displaying.

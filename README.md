@@ -39,7 +39,7 @@ A live version of the webpage can be foound here - https://saleha-m14.github.io/
 7. [Bugs](#bugs "Bugs")
 8. [Deployment](#deployment "Deployment")
 9. [Credits](#credits "Credits")
-10. [Acknowledgements](#acknowledgements "Acknowledgements")
+
 
 # Introduction
 
@@ -237,9 +237,11 @@ The live link can be found here - https://saleha-m14.github.io/My-Second-Project
 
 The over all idea of what to work on as the second project was inspired by [how to make a quiz app](https://youtu.be/2jwdyO_UunE)
 
+I learned how to add [linear gradient background](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) with this site.
+
 To clearly undrestand how to make a webpage responsive the video [how to make a webpage responsive](https://youtu.be/ZYV6dYtz4HA) helped me.
 
-The [easy tutorial](https://www.youtube.com/@EasyTutorialsVideo) helped me gain the necessary knowledge to complete the project complete this project.
+The [easy tutorial](https://www.youtube.com/@EasyTutorialsVideo) helped me gain the necessary knowledge to complete this project.
 
 Martina Mentor from code institute helped and guided me complete this project.
 

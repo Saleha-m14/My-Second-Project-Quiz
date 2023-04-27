@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(#9683AE, #192A51);
     font-family: 'Libre Baskerville', serif;
+    
 
 }
 
@@ -53,13 +54,13 @@ header {
 
 }
 @media only screen and (min-width: 768px) {
-    #container {
+    div #container {
         width: 440px;
         margin: 20px auto 0;
 
     }
 @media only screen and (max-width: 750px) {
-    #container {
+    div #container {
         width: 340px;
         margin: 25px auto 0;
     }

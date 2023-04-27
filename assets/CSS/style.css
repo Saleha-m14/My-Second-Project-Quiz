@@ -9,13 +9,13 @@ body {
     font-family: 'Libre Baskerville', serif;
 
 }
+
 header {
-    background-color: none;
     text-align: center;
     margin: 40px auto 0;
     color: #192A51;
     border-bottom: none;
-    width: 400px;
+    width: 380px;
     font-size: medium;
     text-shadow: 2px 2px #859ED6;
     
@@ -32,7 +32,6 @@ header {
 }
 #marquee {
     text-shadow: 2px 2px #859ED6;
-    background-color: none;
     text-align: start;
     margin: 10px auto 0;
     color: #192A51;
@@ -40,10 +39,10 @@ header {
     width: 400px;
     font-size: larger;
     padding-bottom: 4px;
+    width: 310px;
 
 }
 #welcome {
-    background-color: none;
     text-align: start;
     margin: 10px auto 0;
     color: #192A51;
@@ -61,8 +60,8 @@ header {
     
 
 }
-#hello p {
-    background-color: none;
+p {
+    
     text-align: center;
     margin: 10px auto 0;
     color: #192A51;
@@ -71,7 +70,6 @@ header {
     
 }
 #hello {
-    background-color: none;
     text-align: center;
     margin: 30px auto 0;
     color: #192A51;

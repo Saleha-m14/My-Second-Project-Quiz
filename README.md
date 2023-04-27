@@ -3,6 +3,7 @@
 ![picture that shows it is responsive to different devices]()
 
 English Vocabulary quiz is a simple quiz that is designed to test English vocabulary. It easy and simple to use. This quiz includes ten question and each question has four options that one of them is correct and the others are wrong. By selecting an answer you will realize if your answer is wrong or not and the correct answer. You can add a username and choose the correct option that is provided for each question.
+A live version of the webpage can be foound here - https://saleha-m14.github.io/My-Second-Project-Quiz/
 
 # Table of contents
 
@@ -154,7 +155,9 @@ List of the main issues:
 + I had added the background colour green for the correct class and red for incorrect class but it was not displaying I did not know how to solve the problem so I asked the tutor section for guidance and he said that I need to write it more specifically then I called the button's class name and then correct class name and that way it was solved.
 + The user could not access the questions except the first question.
   + I added a button and the button is displayed to none when the user select an answer for the first question the next button is displayed to block and the user can click on it and go to the next question.
-
++ While testing with W3C validator there was an error that the paragraph that is inside the marquee element can not be a child of the div element. 
+  + Therefore I moved it to the top of the page inside the header and when I tested it again said that it can not be inside header so I moved it above header.
++ 
 
 Apart from these issues that I mentioned there have been several minor issues. The majority of these issues have been due to miss spelled tags, attributes, closing tags, and other mistakes.
 
@@ -163,15 +166,19 @@ Apart from these issues that I mentioned there have been several minor issues. T
 - HTML
   - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html)
 
-  ![W3C Validator]()
+  ![W3C Validator](assets/images/quiz-html-validator.png)
 
 - CSS
   - No errors were returned when passing through the official [(Jigsaw validator)](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fangelicaguimaraes.github.io%2Fmagnolia_tree%2Findex.html&usermedium=all&vextwarning=&warning=1)
 
-![W3C CSS Validator]()
+![W3C CSS Validator](assets/images/quiz-css-validator.png)
+
+-JSHint Testing
+
+![JSHint Testing](assets/images/quiz-jshint-validator.png)
 
 - lighthouse testing
-![lighthouse testing]()
+![lighthouse testing](assets/images/quiz-lighthouse-testing.png)
 
 ### Unfixed Bugs
 
@@ -216,6 +223,6 @@ The procedure for deployment followed the "Creating your site" steps provided in
 5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
 6. The website will deploy and the pages refreshes to provide the live link to the project.
 
-The live link can be found here - 
+The live link can be found here - https://saleha-m14.github.io/My-Second-Project-Quiz/
 
 [Back to top](#english-vocabulary-quiz)

@@ -6,22 +6,25 @@
         <meta name="description" content="English Vocabulary Quiz to test English">
         <meta name="keywords" content="English Vocabulary, English quiz">
         <title>English Quiz</title>
-        <link type="text/css" rel="stylesheet" href="assets/CSS/style.css"
+        <link type="text/css" rel="stylesheet" href="assets/CSS/style.css">
     </head>
+    
     <body>
+        
         <header>
             <h1>English Vocabulary Quiz</h1>
             
         </header> 
         <div id="hello">
-            <p>Hello, type your name</p>
-            <input type="text" name="name" id="name"></br>
+            <label for="name">Add your name</label><br>
+            <input type="text" name="name" id="name"><br>
             <button onclick="displayName()" type="submit" class="submit">Submit</button>
             
 
         </div>
+        
         <div id="container">
-            <marquee><p id="marquee">Welcome!</p></marquee>
+            <p id="marquee">Welcome!</p>
             <p id="welcome"></p><hr><br>
             <h2 id="question"> Question goes here</h2>
             <div id="answer-buttons">

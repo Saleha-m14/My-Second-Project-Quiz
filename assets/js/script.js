@@ -117,7 +117,7 @@ function selectAnswer (e) {
   });
   nextButton.style.display = "block";
     
-};
+}
 function handleNextButton() {
   currentQuestionIndex++;
   if(currentQuestionIndex < questions.length){
@@ -129,7 +129,7 @@ function handleNextButton() {
 }
 function displayScore() {
   resetState();
-  welcome.innerHTML = "You have completed the quiz!"
+  welcome.innerHTML = "You have completed the quiz!";
   questionElement.innerHTML = `
   <h1>Good!</h1><hr>
   <p>You scored ${score} out of ${questions.length}.</p>`;
@@ -146,7 +146,7 @@ nextButton.addEventListener("click", ()=>{
     startQuiz();
     marqueeParagraph.innerHTML = "Try Again";
   }
-})
+});
 
 function showQuestion() {
     resetState();

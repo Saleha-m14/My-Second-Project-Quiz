@@ -7,7 +7,7 @@
 body {
     background: linear-gradient(#9683AE, #192A51);
     font-family: 'Libre Baskerville', serif;
-    background-repeat: no-repeat;
+    
     
 
 }
@@ -17,7 +17,6 @@ header {
     margin: 40px auto 0;
     color: #192A51;
     border-bottom: none;
-    width: 380px;
     font-size: medium;
     text-shadow: 2px 2px #859ED6;
     
@@ -26,7 +25,7 @@ header {
 /*add styles for quiz container*/
 #container {
     background-color: #E5DFE0;
-    width: 340px;
+    max-width: 400px;
     padding: 30px;
     margin: 5px auto 0;
     border-radius: 15px;
@@ -37,11 +36,8 @@ header {
     text-align: start;
     margin: 10px auto 0;
     color: #192A51;
-    border-bottom: none;
-    width: 400px;
     font-size: larger;
     padding-bottom: 4px;
-    width: 310px;
 
 }
 #welcome {
@@ -49,19 +45,16 @@ header {
     margin: 10px auto 0;
     color: #192A51;
     border-bottom: none;
-    width: 400px;
     font-size: larger;
     padding-bottom: 4px;
 
 }
 @media screen and (max-width: 414px) {
     #container {
-        width: 325px;
+        max-width: 340px;
         margin: 0 auto;
-        margin-left: 35px;
         padding: 15px;
         text-align: start;
-        max-width: 90%;
     }
     
 }
@@ -80,15 +73,12 @@ p {
     margin: 10px auto 0;
     color: #192A51;
     border-bottom: none;
-    width: 400px;
     
 }
 #hello {
     text-align: center;
-    margin: 30px auto 0;
+    margin: 20px auto 0;
     color: #192A51;
-    border-bottom: none;
-    width: 400px;
 }
 #name {
     width: 100px;

@@ -1,6 +1,6 @@
 # English Vocabulary Quiz
 
-![picture that shows it is responsive to different devices]()
+![picture that shows it is responsive to different devices](assets/images/quiz-responsive.png)
 
 English Vocabulary quiz is a simple quiz that is designed to test English vocabulary. It easy and simple to use. This quiz includes ten question and each question has four options that one of them is correct and the others are wrong. By selecting an answer you will realize if your answer is wrong or not and the correct answer. You can add a username and choose the correct option that is provided for each question.
 A live version of the webpage can be foound here - https://saleha-m14.github.io/My-Second-Project-Quiz/

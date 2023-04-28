@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(#9683AE, #192A51);
     font-family: 'Libre Baskerville', serif;
+    background-repeat: no-repeat;
     
 
 }
@@ -57,9 +58,10 @@ header {
     #container {
         width: 325px;
         margin: 0 auto;
-        margin-left: 42px;
-        padding: 12px;
-        text-align: center;
+        margin-left: 35px;
+        padding: 15px;
+        text-align: start;
+        max-width: 90%;
     }
     
 }

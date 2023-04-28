@@ -166,7 +166,8 @@ List of the main issues:
   + I added a button and the button is displayed to none when the user select an answer for the first question the next button is displayed to block and the user can click on it and go to the next question.
 + While testing with W3C validator there was an error that the paragraph that is inside the marquee element can not be a child of the div element. 
   + Therefore I moved it to the top of the page inside the header and when I tested it again said that it can not be inside header so I moved it above header.
-+ 
++ The webpage div elements was not centered. although I had added margin auto 0. 
+  + The problem was the set width for div elemets that hovered over body and its container. The set widths were removed.
 
 Apart from these issues that I mentioned there have been several minor issues. The majority of these issues have been due to miss spelled tags, attributes, closing tags, and other mistakes.
 
@@ -193,7 +194,7 @@ Apart from these issues that I mentioned there have been several minor issues. T
 
 - All bugs were fixed and added to testing.
 
-## Deployment & Usage
+## Deployment
 
 ### Remote Deployment
 The site was deployed to GitHub pages. To deploy the website, the following steps were taken:
